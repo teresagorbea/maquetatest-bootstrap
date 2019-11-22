@@ -213,6 +213,27 @@ a:hover{
 }
 /* end testimonial */
 
+/* start footer */
+#footer{
+    padding: 5rem 0;
+    text-align: center;
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+}
+#footer a:hover{
+    color: #fff;
+}
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+}
+#footer .list-inline i{
+    font-size: 1.6rem;
+    color: #fff;
+}
+/* end footer */
+
 
 
 @media (max-width: 575.98px) {
