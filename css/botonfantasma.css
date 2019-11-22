@@ -1,0 +1,208 @@
+:root{
+    --pink: #ef3c82;
+    --white: #fff;
+    --black: #000;
+    --red: #fa1b1b;
+    --blue: #211dff;
+    --purple: #7118ff;
+    --yellow: #e8ff1d;
+    --green: #1dff68;
+}
+
+.btn-ghost{
+    position: relative;
+    display: inline-block;
+    border: 2px solid var(--white);
+    padding: 8px 24px;
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--white);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.5s background 0.5s;
+}
+.btn-ghost.round{
+    border-radius: 30px;
+}
+.btn-ghost.secondary:hover{
+    color: var(--white);
+    background-color: var(--pink);
+}
+.btn-ghost.secondary:active{
+    box-shadow: inset 0 0 20px var(--black);
+}
+/* pink */
+.btn-ghost.secondary.pink{
+    color: var(--pink);
+    background-color: transparent;
+    border-color: var(--pink);
+}
+.btn-ghost.secondary.pink:hover{
+    background-color: var(--pink);
+    color: var(--white);
+}
+.btn-ghost.secondary.pink:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.pink{
+    background-color: var(--pink);
+    color: var(--white);
+}
+.btn-ghost.pink:hover{
+    background-color: transparent;
+    color: var(--pink);
+    border-color: var(--pink);
+}
+.btn-ghost.pink:active{
+    box-shadow: inset 0 0 20px var(--pink);
+}
+/* black */
+.btn-ghost.secondary.black{
+    color: var(--black);
+    background-color: transparent;
+    border-color: var(--black);
+}
+.btn-ghost.secondary.black:hover{
+    background-color: var(--black);
+    color: var(--white);
+}
+.btn-ghost.secondary.black:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.black{
+    background-color: var(--black);
+    color: var(--white);
+}
+.btn-ghost.black:hover{
+    background-color: transparent;
+    color: var(--black);
+    border-color: var(--black);
+}
+.btn-ghost.black:active{
+    box-shadow: inset 0 0 20px var(--black);
+}
+/* red */
+.btn-ghost.secondary.red{
+    color: var(--red);
+    background-color: transparent;
+    border-color: var(--red);
+}
+.btn-ghost.secondary.red:hover{
+    background-color: var(--red);
+    color: var(--white);
+}
+.btn-ghost.secondary.red:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.red{
+    background-color: var(--red);
+    color: var(--white);
+}
+.btn-ghost.red:hover{
+    background-color: transparent;
+    color: var(--red);
+    border-color: var(--red);
+}
+.btn-ghost.red:active{
+    box-shadow: inset 0 0 20px var(--red);
+}
+/* blue */
+.btn-ghost.secondary.blue{
+    color: var(--blue);
+    background-color: transparent;
+    border-color: var(--blue);
+}
+.btn-ghost.secondary.blue:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.btn-ghost.secondary.blue:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.blue{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.btn-ghost.blue:hover{
+    background-color: transparent;
+    color: var(--blue);
+    border-color: var(--blue);
+}
+.btn-ghost.blue:active{
+    box-shadow: inset 0 0 20px var(--blue);
+}
+/* purple */
+.btn-ghost.secondary.purple{
+    color: var(--purple);
+    background-color: transparent;
+    border-color: var(--purple);
+}
+.btn-ghost.secondary.purple:hover{
+    background-color: var(--purple);
+    color: var(--white);
+}
+.btn-ghost.secondary.purple:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.purple{
+    background-color: var(--purple);
+    color: var(--white);
+}
+.btn-ghost.purple:hover{
+    background-color: transparent;
+    color: var(--purple);
+    border-color: var(--purple);
+}
+.btn-ghost.purple:active{
+    box-shadow: inset 0 0 20px var(--purple);
+}
+/* yellow */
+.btn-ghost.secondary.yellow{
+    color: var(--yellow);
+    background-color: transparent;
+    border-color: var(--yellow);
+}
+.btn-ghost.secondary.yellow:hover{
+    background-color: var(--yellow);
+    color: var(--white);
+}
+.btn-ghost.secondary.yellow:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.yellow{
+    background-color: var(--yellow);
+    color: var(--white);
+}
+.btn-ghost.yellow:hover{
+    background-color: transparent;
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+.btn-ghost.yellow:active{
+    box-shadow: inset 0 0 20px var(--yellow);
+}
+/* green */
+.btn-ghost.secondary.green{
+    color: var(--green);
+    background-color: transparent;
+    border-color: var(--green);
+}
+.btn-ghost.secondary.green:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
+.btn-ghost.secondary.green:active{
+    box-shadow: inset 0 0 20px var(--white);
+}
+.btn-ghost.green{
+    background-color: var(--green);
+    color: var(--white);
+}
+.btn-ghost.green:hover{
+    background-color: transparent;
+    color: var(--green);
+    border-color: var(--green);
+}
+.btn-ghost.green:active{
+    box-shadow: inset 0 0 20px var(--green);
+}
