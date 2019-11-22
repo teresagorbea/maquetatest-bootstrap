@@ -156,7 +156,62 @@ a:hover{
 }
 /* end pricing */
 
-
+/* start testimonial */
+.carousel{
+    min-height: 15rem;
+    padding: 2.5rem;
+    border-radius: 2px;
+    text-align: center;
+}
+.carousel p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #000;
+}
+.rating i{
+    color: gold;
+    font-size: 1.6rem;
+}
+.carousel-indicators li{
+    background-color: #000;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 2px;
+    margin: 0 8px;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    color: #fff;
+    opacity: 1;
+    width: 5%;
+}
+.control-button{
+    background-color: #000;
+    opacity: 1;
+    width: 3.1rem;
+    height: 3.1rem;
+    padding: 0.6rem;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 1.25rem;
+}
+.testimonial-user{
+    max-width: 15rem;
+    margin: 0 auto;
+    text-align: left;
+}
+.testimonial-user h6{
+    margin-bottom: 0;
+}
+.testimonial-user span{
+    font-size: 1rem;
+}
+.testimonial-user img{
+    border-radius: 3.125rem;
+    max-width: 3.125rem;
+    text-align: center;
+}
+/* end testimonial */
 
 
 
