@@ -58,7 +58,7 @@ a i{
 }
 .text-dark{ color: #000;}
 section{
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 
 /* end utilities */
@@ -98,6 +98,35 @@ a:hover{
 }
 
 /* end portafolio */
+
+/* start aboout us */
+.member-container{
+    position: relative;
+    margin: 0.625rem 0;
+}
+.member-details{
+    position: absolute;
+    color: #606060;
+    bottom: 0;
+    left: 1.25rem;
+}
+.member-details span{
+    font-size: 1rem;
+}
+.member-details i{
+    padding: 0 0.3125rem;
+}
+.member-details a i{
+    font-size: 1.875rem;
+    color: #606060;
+}
+
+/* end aboout us */
+
+
+
+
+
 
 @media (max-width: 575.98px) {
     h1{
